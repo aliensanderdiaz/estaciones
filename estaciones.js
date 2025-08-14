@@ -37,7 +37,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010050",
@@ -57,7 +58,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010060",
@@ -157,7 +159,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010130",
@@ -197,7 +200,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010160",
@@ -217,7 +221,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010170",
@@ -277,7 +282,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010200",
@@ -357,7 +363,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21010240",
@@ -457,7 +464,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia. Tipo de Transmision y Estado por solicitud de la coordinadora del AO. (31012023)|05/11/2024$mvelez$La estación fue automatizada a través del proyecto NDC fase 1, queda como automática con Telemetría, el componente convencional queda solo con el pluviómetro. en el CNE la categoría es PM y debe quedar CP, solicitud realizada por la coordinadora Sra. Ofelia Ángel mediante correo electrónico 17/10/2024",
-    "SUBRED": "Radición Global,RED ALERTAS - AREA OPERATIVA 04,Radiación Visible,Alto Magdalena Huila -Tolima,Radiación Ultravioleta"
+    "SUBRED": "Radición Global,RED ALERTAS - AREA OPERATIVA 04,Radiación Visible,Alto Magdalena Huila -Tolima,Radiación Ultravioleta",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21015040",
@@ -617,7 +625,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Timaná y otros directos al Magdalena",
     "CORRIENTE": "Magdalena",
     "OBSERVACION": "Actualizada categoría de LG a LM y Tecnología por solicitud de la coordinadora del AO (28022023)|05/11/2024$mvelez$La estación 21017040 se automatizo con el proyecto NDC fase 2 debe quedar limnigráfica automática con telemetría. Solicitud de la coordinadora Sra. Ofelia Ángel mediante correo electrónico 17/10/2024|23/04/2025$mvelez$Para la estación hidrológica 21017040  Salado Blanco con coordenadas latitud 1.9881111110 y longitud -76.01202778,  tal como aparecen en el CNE,  se solicito cuando se visite la estación nuevamente georrefenciar bien el punto pero como el AOP04 no cuenta con equipos se toma la elevación que reporta Google Earth Pro es de 994 metros encontrado que efectivamente la elevación esta mal en el CNE ya que no es 170 metros como esta actualmente. se solicito la hoja de inspección la cual se adjunta al memorando 20253110045513, se modifican las coordenadas a 1.9880833 -76.012083333334 elevación 994 metros. ",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21017050",
@@ -637,7 +646,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Alto Magdalena",
     "CORRIENTE": "Guarapas",
     "OBSERVACION": "Actualizada Categoria y Tecnologia por solicitud de la coordinadora del AO. (28022023)",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21017060",
@@ -697,7 +707,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Timaná y otros directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "Correccion Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21020050",
@@ -717,7 +728,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Timaná y otros directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "Corrección Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21025010",
@@ -777,7 +789,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Timaná y otros directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud de la Coordinadora del AO. (17032023) ",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21027010",
@@ -897,7 +910,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Orteguaza",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21030090",
@@ -917,7 +931,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos Directos al Magdalena (mi)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21030110",
@@ -1117,7 +1132,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos Directos al Magdalena (mi)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21040030",
@@ -1137,7 +1153,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos Directos al Magdalena (mi)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21040040",
@@ -1177,7 +1194,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos Directos al Magdalena (mi)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21040060",
@@ -1397,7 +1415,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Páez",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud del coordinador del AO. (01022023)|17/06/2024$lhurtado$Se actualiza tecnología y tipo de trasmisión. Queda solo componente convencional en al estación porque se retiro el componente automático del terreno, el cual fue solicitado. ",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21050100",
@@ -1477,7 +1496,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Yaguará y Río Iquira",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21050150",
@@ -1537,7 +1557,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Páez",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21050180",
@@ -1737,7 +1758,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Páez",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21050310",
@@ -1797,7 +1819,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Páez",
     "CORRIENTE": "",
     "OBSERVACION": "Correccion Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "Altiplano Nariñense-Pacifico,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Altiplano Nariñense-Pacifico,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21055040",
@@ -1917,7 +1940,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Páez",
     "CORRIENTE": "Paez",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud del coordinador del AO. (01022023)|05/11/2024$mvelez$En el CNE tiene de altitud 785 msnm y debe estar en 788 msnm de acuerdo al BM, solicitud realizada por la coordinadora Sra. Ofelia mediante correo electrónico 17/10/2024",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21057070",
@@ -2097,7 +2121,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos directos Magdalena (md)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21060080",
@@ -2117,7 +2142,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos directos Magdalena (md)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21060090",
@@ -2137,7 +2163,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos directos Magdalena (md)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21060100",
@@ -2157,7 +2184,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos directos Magdalena (md)",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21060110",
@@ -2197,7 +2225,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Ríos directos Magdalena (md)",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud de la coordinadora del AO. (17032023)",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21077010",
@@ -2277,7 +2306,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Yaguará y Río Iquira",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21080040",
@@ -2337,7 +2367,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Yaguará y Río Iquira",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21080080",
@@ -2357,7 +2388,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Yaguará y Río Iquira",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21080090",
@@ -2617,7 +2649,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Yaguará y Río Iquira",
     "CORRIENTE": "Yaguara",
     "OBSERVACION": "Solicitud Cambio de Tecnologia REQ 2020-009094 Coordinadora AO 04.\nActualizada categoria de LG a LM por solicitud de la coordinadora del AO (06032023)",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21087090",
@@ -2677,7 +2710,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Juncal y otros Rios directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21090030",
@@ -2957,7 +2991,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "Magdalena",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud del coordinador del AO. (01022023)",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21097080",
@@ -3397,7 +3432,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110070",
@@ -3417,7 +3453,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110090",
@@ -3497,7 +3534,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110180",
@@ -3517,7 +3555,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110210",
@@ -3637,7 +3676,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110380",
@@ -3677,7 +3717,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110410",
@@ -3757,7 +3798,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21110460",
@@ -3777,7 +3819,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21115010",
@@ -3937,7 +3980,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Rio Fortalecillas y otros",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnología y Tipo de Transmisión por solicitud de la coordinadora del AO. (17032023) ",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21115110",
@@ -4537,7 +4581,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Baché",
     "CORRIENTE": "Bache",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21127030",
@@ -4717,7 +4762,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Aipe, Río Chenche y otros directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "Corrección Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21130170",
@@ -4777,7 +4823,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Aipe, Río Chenche y otros directos al Magdalena",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21135050",
@@ -4957,7 +5004,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Cabrera",
     "CORRIENTE": "",
     "OBSERVACION": "Corrección Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21140100",
@@ -5017,7 +5065,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Cabrera",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision por solicitud de la coordinadora del AO. (17032023)",
-    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Alto Magdalena Huila -Tolima,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21140130",
@@ -5137,7 +5186,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Cabrera",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21145060",
@@ -5197,7 +5247,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Cabrera",
     "CORRIENTE": "",
     "OBSERVACION": "Actualizada Tecnologia y Tipo de Transmision solicitada por el coordinador del AO. (01022023)",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Alto Magdalena Huila -Tolima",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "21147010",
@@ -5397,7 +5448,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Orteguaza",
     "CORRIENTE": "",
     "OBSERVACION": "Corrección Altura Solicitada Sg. REQ2020-003644",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Piedemonte Caqueta y Putumayo"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Piedemonte Caqueta y Putumayo",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44030070",
@@ -5617,7 +5669,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Orteguaza",
     "CORRIENTE": "Orteguaza",
     "OBSERVACION": "Actualizada categoria de LG a LM por solicitrud de la coordinadora del AO (07032023)|05/11/2024$mvelez$Cambio de categoría de LM a LG, automática con telemetría convencional, la estación fue automatizada a través del proyecto NDC fase 2. La solicitud la realiza la coordinadora la Sra. Ofelia Ángel mediante correo electrónico 17/10/2024",
-    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Piedemonte Caqueta y Putumayo"
+    "SUBRED": "RED ALERTAS - AREA OPERATIVA 04,Piedemonte Caqueta y Putumayo",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44037060",
@@ -5817,7 +5870,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Pescado",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44045010",
@@ -5837,7 +5891,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Pescado",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44045020",
@@ -5857,7 +5912,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Pescado",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Piedemonte Caqueta y Putumayo,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44045030",
@@ -6017,7 +6073,8 @@ const estaciones = [
     "SUBZONA_HIDROGRAFICA": "Río Caqueta Bajo",
     "CORRIENTE": "",
     "OBSERVACION": "",
-    "SUBRED": "Radiación Ultravioleta,Radiación Visible,RED ALERTAS - AREA OPERATIVA 04"
+    "SUBRED": "Radiación Ultravioleta,Radiación Visible,RED ALERTAS - AREA OPERATIVA 04",
+    "LLAMADAS": true
   },
   {
     "CODIGO": "44135020",

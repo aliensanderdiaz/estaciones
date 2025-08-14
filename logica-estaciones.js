@@ -61,10 +61,10 @@ estaciones.forEach(estacion => {
     let indice = nombre_estacion.indexOf('[')
     nombre_estacion = nombre_estacion.substring(0, indice).trim()
     html_tabla += `
-        <tr class="${ estacion.ESTADO === 'Suspendida' ? 'suspendida' : '' }"
+        <tr class="${ estacion.TECNOLOGIA.includes('uto') ? 'automatica' : '' } ${ estacion.ESTADO === 'Suspendida' ? 'suspendida' : '' }"
             onclick="mostrarInfo(${ estacion.CODIGO })"
         >
-            <td class="text-end">${estacion.CODIGO}</td>
+            <td class="text-end ${ estacion.LLAMADAS ? 'llamadas': ''}">${estacion.CODIGO}</td>
             <td>${ nombre_estacion }</td>
             <td>${estacion.CATEGORIA}</td>
             <td>${estacion.TECNOLOGIA}</td>
