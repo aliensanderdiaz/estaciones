@@ -62,10 +62,13 @@ estaciones.forEach(estacion => {
     nombre_estacion = nombre_estacion.substring(0, indice).trim()
     html_tabla += `
         <tr class="${ estacion.TECNOLOGIA.includes('uto') ? 'automatica' : '' } ${ estacion.ESTADO === 'Suspendida' ? 'suspendida' : '' }"
-            onclick="mostrarInfo(${ estacion.CODIGO })"
+            
         >
             <td class="text-end ${ estacion.LLAMADAS ? 'llamadas': ''}">${estacion.CODIGO}</td>
-            <td>${ nombre_estacion }</td>
+            <td>
+                ${ nombre_estacion }
+                <span class="detalles" onclick="mostrarInfo(${ estacion.CODIGO })">🔎</span>
+            </td>
             <td>${estacion.CATEGORIA}</td>
             <td>${estacion.TECNOLOGIA}</td>
             <td>${estacion.MUNICIPIO}</td>
