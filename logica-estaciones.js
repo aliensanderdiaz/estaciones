@@ -1,6 +1,26 @@
 const TABLA = document.querySelector('#tabla-estaciones')
 const favDialog = document.getElementById("favDialog");
 
+const linkMapa = (lat, lon) => {
+
+    lon = lon * -1
+    let g1, m1, s1, g2, m2, s2
+    g1 = Math.trunc(lat)
+    let temp1 = (lat - g1) * 60
+    m1 = Math.trunc(temp1)
+    s1 = Math.trunc((temp1 - m1) * 600) / 10
+
+    
+    g2 = Math.trunc(lon)
+    let temp2 = (lon - g2) * 60
+    m2 = Math.trunc(temp2)
+    s2 = Math.trunc((temp2 - m2) * 600) / 10
+    // https://www.google.com/maps/place/2%C2%B056'23.0%22N+75%C2%B014'56.5%22W/@2.9397222,-75.2490278,17z/data=!3m1!4b1!4m4!3m3!8m2!3d2.9397222!4d-75.2490278?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D
+    // https://www.google.com/maps/place/2%C2%B056'22.9%22N+75%C2%B014'56.5%22W
+
+    return `https://www.google.com/maps/place/${ g1 }%C2%B0${ m1 }'${ s1 }%22N+${ g2 }%C2%B0${ m2 }'${ s2 }%22W`
+}
+
 const mostrarInfo = (codigo) => {
     console.log({ codigo })
     let estacion = estaciones.find(est => est.CODIGO == codigo)
@@ -24,6 +44,8 @@ const mostrarInfo = (codigo) => {
     <strong>LATITUD</strong>: ${estacion.LATITUD}
     <br>
     <strong>LONGITUD</strong>: ${estacion.LONGITUD}
+    <br>
+    <a href="${linkMapa(estacion.LATITUD, estacion.LONGITUD) }" target="_blank">🌎</a>
     <br>
     <strong>DEPARTAMENTO</strong>: ${estacion.DEPARTAMENTO}
     <br>
