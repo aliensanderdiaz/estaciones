@@ -1,5 +1,6 @@
 const TABLA = document.querySelector('#tabla-estaciones')
 const filtro = document.querySelector('#filtro')
+const query = document.querySelector('#query')
 const favDialog = document.getElementById("favDialog");
 
 const linkMapa = (lat, lon) => {
@@ -93,6 +94,8 @@ const dibujar = (estacionesFiltradas = estaciones) => {
             <td class="text-end ${estacion.LLAMADAS ? 'llamadas' : ''}">${estacion.CODIGO}</td>
             <td>
                 ${nombre_estacion}
+                ${ estacion.tecnico ? ' - ' + estacion.tecnico: '' }
+                ${ estacion.tipoInterno ? ' - ' + estacion.tipoInterno: '' }
                 <span class="detalles" onclick="mostrarInfo(${estacion.CODIGO})">🔎</span>
             </td>
             <td>${estacion.CATEGORIA}</td>
@@ -110,12 +113,42 @@ dibujar()
 
 filtro.addEventListener('change', (event) => {
     const value = event.target.value
+    if (value === 'todas') {
+        let estacionesFiltradas = estaciones
+        dibujar(estacionesFiltradas)
+    }
     if (value === 'activas') {
         let estacionesFiltradas = estaciones.filter(estacion => estacion.ESTADO !== 'Suspendida')
         dibujar(estacionesFiltradas)
     }
-    if (value === 'pluviometricas') {
-        let estacionesFiltradas = estaciones.filter(estacion => estacion.CATEGORIA === 'Pluviométrica' && estacion.ESTADO !== 'Suspendida')
+    if (value === 'suspendidas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.ESTADO === 'Suspendida')
         dibujar(estacionesFiltradas)
     }
+    if (value === 'pluviometricas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.tipoInterno === 'PM' )
+        dibujar(estacionesFiltradas)
+    }
+    if (value === 'llamadas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.LLAMADAS && estacion.ESTADO !== 'Suspendida')
+        dibujar(estacionesFiltradas)
+    }
+    if (value === 'climatologicas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.tipoInterno === 'C' )
+        dibujar(estacionesFiltradas)
+    }
+    if (value === 'automaticas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.TECNOLOGIA.includes('utom') && estacion.ESTADO !== 'Suspendida')
+        dibujar(estacionesFiltradas)
+    }
+})
+
+
+query.addEventListener('keyup', (event) => {
+    const value = event.target.value
+    let estacionesFiltradas = estaciones.filter(
+        estacion => estacion.NOMBRE.toLowerCase().includes(value.toLowerCase()) || 
+                    estacion.CODIGO.toLowerCase().includes(value.toLowerCase())
+    )
+    dibujar(estacionesFiltradas)
 })
