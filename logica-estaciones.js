@@ -1,4 +1,5 @@
 const TABLA = document.querySelector('#tabla-estaciones')
+const filtro = document.querySelector('#filtro')
 const favDialog = document.getElementById("favDialog");
 
 const linkMapa = (lat, lon) => {
@@ -10,7 +11,7 @@ const linkMapa = (lat, lon) => {
     m1 = Math.trunc(temp1)
     s1 = Math.trunc((temp1 - m1) * 600) / 10
 
-    
+
     g2 = Math.trunc(lon)
     let temp2 = (lon - g2) * 60
     m2 = Math.trunc(temp2)
@@ -18,7 +19,7 @@ const linkMapa = (lat, lon) => {
     // https://www.google.com/maps/place/2%C2%B056'23.0%22N+75%C2%B014'56.5%22W/@2.9397222,-75.2490278,17z/data=!3m1!4b1!4m4!3m3!8m2!3d2.9397222!4d-75.2490278?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D
     // https://www.google.com/maps/place/2%C2%B056'22.9%22N+75%C2%B014'56.5%22W
 
-    return `https://www.google.com/maps/place/${ g1 }%C2%B0${ m1 }'${ s1 }%22N+${ g2 }%C2%B0${ m2 }'${ s2 }%22W`
+    return `https://www.google.com/maps/place/${g1}%C2%B0${m1}'${s1}%22N+${g2}%C2%B0${m2}'${s2}%22W`
 }
 
 const mostrarInfo = (codigo) => {
@@ -45,7 +46,7 @@ const mostrarInfo = (codigo) => {
     <br>
     <strong>LONGITUD</strong>: ${estacion.LONGITUD}
     <br>
-    <a href="${linkMapa(estacion.LATITUD, estacion.LONGITUD) }" target="_blank">🌎</a>
+    <a href="${linkMapa(estacion.LATITUD, estacion.LONGITUD)}" target="_blank">🌎</a>
     <br>
     <strong>DEPARTAMENTO</strong>: ${estacion.DEPARTAMENTO}
     <br>
@@ -66,37 +67,55 @@ const mostrarInfo = (codigo) => {
     favDialog.showModal();
 }
 
-const ENCABEZADO = `
+const dibujar = (estacionesFiltradas = estaciones) => {
+    const ENCABEZADO = `
         <tr>
+            <th></th>
             <th>CODIGO</th>
             <th>NOMBRE</th>
             <th>CATEGORIA</th>
             <th>TECNOLOGIA</th>
             <th>MUNICIPIO</th>
-            </tr>`
-            // <th>ESTADO</th>
+        </tr>`
 
-let html_tabla = ENCABEZADO
 
-estaciones.forEach(estacion => {
-    let nombre_estacion = estacion.NOMBRE
-    let indice = nombre_estacion.indexOf('[')
-    nombre_estacion = nombre_estacion.substring(0, indice).trim()
-    html_tabla += `
-        <tr class="${ estacion.TECNOLOGIA.includes('uto') ? 'automatica' : '' } ${ estacion.ESTADO === 'Suspendida' ? 'suspendida' : '' }"
+    let html_tabla = ENCABEZADO
+
+    estacionesFiltradas.forEach((estacion, i) => {
+        let nombre_estacion = estacion.NOMBRE
+        let indice = nombre_estacion.indexOf('[')
+        nombre_estacion = nombre_estacion.substring(0, indice).trim()
+        html_tabla += `
+        <tr class="${estacion.TECNOLOGIA.includes('uto') ? 'automatica' : ''} ${estacion.ESTADO === 'Suspendida' ? 'suspendida' : ''}"
             
         >
-            <td class="text-end ${ estacion.LLAMADAS ? 'llamadas': ''}">${estacion.CODIGO}</td>
+            <td class="text-end">${i + 1}</td>
+            <td class="text-end ${estacion.LLAMADAS ? 'llamadas' : ''}">${estacion.CODIGO}</td>
             <td>
-                ${ nombre_estacion }
-                <span class="detalles" onclick="mostrarInfo(${ estacion.CODIGO })">🔎</span>
+                ${nombre_estacion}
+                <span class="detalles" onclick="mostrarInfo(${estacion.CODIGO})">🔎</span>
             </td>
             <td>${estacion.CATEGORIA}</td>
             <td>${estacion.TECNOLOGIA}</td>
             <td>${estacion.MUNICIPIO}</td>
         </tr>
             `
-            // <td>${estacion.ESTADO}</td>
-})
+        // <td>${estacion.ESTADO}</td>
+    })
 
-TABLA.innerHTML = html_tabla
+    TABLA.innerHTML = html_tabla
+}
+
+dibujar()
+
+filtro.addEventListener('change', (event) => {
+    const value = event.target.value
+    if (value === 'activas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.ESTADO !== 'Suspendida')
+        dibujar(estacionesFiltradas)
+    }
+    if (value === 'pluviometricas') {
+        let estacionesFiltradas = estaciones.filter(estacion => estacion.CATEGORIA === 'Pluviométrica' && estacion.ESTADO !== 'Suspendida')
+        dibujar(estacionesFiltradas)
+    }
+})

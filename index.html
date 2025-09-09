@@ -61,6 +61,21 @@
 <body>
     <h1>Estaciones Área Operativa - 04</h1>
 
+    <select name="select" id="filtro">
+        <option value="todas">Todas</option>
+        <option value="activas">Activas</option>
+        <option value="suspendidas">Suspendidas</option>
+        <option value="llamadas">Llamadas</option>
+        <option value="pluviometricas">Pluviometricas</option>
+        <option value="climatologicas">Climatologicas</option>
+    </select>
+
+    <p>
+        Estaciones totales: 348, Activas: 200, Suspendidas: 148
+        <br>
+        Pluviometricas: 117*, Climatologicas: 24*
+    </p>
+
     <table id="tabla-estaciones"></table>
 
     <dialog id="favDialog">
